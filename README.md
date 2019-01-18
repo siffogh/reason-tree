@@ -2,17 +2,21 @@
 
 Hello! This project allows you to quickly get started with Reason and BuckleScript. If you wanted a more sophisticated version, try the `react` template (`bsb -theme react -init .`).
 
-# Build
+# 1- Compile Reason to JavaScript
+## Build
 ```
 npm run build
 ```
 
-# Build + Watch
+## Build + Watch
 
 ```
 npm run start
 ```
 
 
-# Editor
-If you use `vscode`, Press `Windows + Shift + B` it will build automatically
+# 2- Run the compiled code with Node
+> NodeJS >= 10.x is required
+```
+node src/Demo.bs.js
+```
