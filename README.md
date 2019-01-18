@@ -1,6 +1,7 @@
-# Basic Reason Template
+# reason-tree
+A tree-cli-like NodeJS tool that lists a directory’s content in the shape of a tree.
 
-Hello! This project allows you to quickly get started with Reason and BuckleScript. If you wanted a more sophisticated version, try the `react` template (`bsb -theme react -init .`).
+> This is the source code for [this article](https://medium.freecodecamp.org/how-to-taste-reasonml-by-building-something-useful-7b1189b94637) on freeCodeCamp. 
 
 # 1- Compile Reason to JavaScript
 ## Build
